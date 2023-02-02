@@ -1,0 +1,83 @@
+/**/.main {
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+.getWeekDataBtn {
+}
+.day {
+  margin-bottom: 50px;
+}
+.dayTitle {
+  margin-bottom: 8px;
+}
+.dayBlock {
+  display: flex;
+  padding: 12px 7px 10px 3px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  width: 75px;
+}
+.showing {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background: #2a7acc;
+  justify-content: space-between;
+}
+.showing span {
+  color: white;
+  padding: 0 5px;
+  text-align: center;
+}
+.showing:hover {
+  background: #940000;
+  cursor: pointer;
+}
+.showingExtendedEnd {
+  background: #333;
+  opacity: 0.2;
+}
+.gap {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  border: 1px solid #ccc;
+  justify-content: start;
+}
+.gap span {
+  color: #555;
+  padding: 0 5px;
+  text-align: center;
+}
+.gap .icon {
+  position: absolute;
+  z-index: 2;
+  top:0;
+  height: 100%;
+  left: 0;
+  display: flex;
+  align-items: center;
+  padding: 0 8px;
+  font-size: 20px;
+}
+.gap:hover {
+  opacity: 0.8;
+}
+
+.timeInput{
+  margin-bottom: 25px;
+}
+
+.time {
+  display: flex;
+}

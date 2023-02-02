@@ -1,0 +1,91 @@
+.main {
+  padding: 25px;
+}
+.game {
+  display: block;
+  padding: 0 0 20px 0;
+  display: -moz-box;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.game .title {
+  color: black;
+  font-size: 16px;
+}
+.game .image {
+  width: 32%;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+}
+.game .image .tag {
+  position: absolute;
+  z-index: 2;
+  padding: 2px 7px;
+  background: red;
+  color: white;
+  border-radius: 5px 0 0 5px;
+  top: 9px;
+  right: -2px;
+  font-size: 13px;
+}
+.game .sec2 {
+  padding: 0 15px 0 0;
+  flex-grow: 1;
+  width: 57%;
+}
+.game .genres span {
+  font-size: 13px;
+}
+.game .club {
+  font-size: 10px;
+  margin-bottom: 7px;
+}
+.game .district {
+  color: #777;
+}
+.game .distance {
+  display: flex;
+  align-items: center;
+}
+.game .distance svg {
+  margin-left: 3px;
+}
+.game .buy {
+  border: 1px solid #0718fc;
+  padding: 3px 0;
+  border-radius: 5px;
+  color: #0718fc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+}
+.game .buy svg{
+  margin-left: 5px;
+  font-size: 16px;
+}
+/**************************************************************************/
+/**************************************************************************/
+/**************************************************************************/
+/**************************************************************************/
+/**************************************************************************/
+.desktop.main {
+  padding: 50px 0;
+}
+.desktop .game .image {
+  width: 100px;
+}
+.desktop .game .sec2 {
+  padding: 0 15px 0 0;
+  flex-grow:unset;
+}
+.desktop.cols3.main {
+  display: flex;
+  flex-wrap: wrap;
+}
+.desktop.cols3 .game {
+  width: 33.333%;
+  margin-bottom: 20px;
+}

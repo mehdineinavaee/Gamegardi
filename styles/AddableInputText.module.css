@@ -1,0 +1,18 @@
+.main {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.input {
+    margin-bottom: 10px;
+    position: relative;
+
+}
+.input button {
+    position: absolute;
+    z-index: 2;
+    top:0;
+    left:0
+}
+.fieldActions {
+    margin-top: -15px;
+}

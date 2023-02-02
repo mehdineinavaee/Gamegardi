@@ -1,0 +1,139 @@
+/**/
+.main {
+  padding: 10px;
+  background: white;
+  border-radius: 5px;
+  width: 44%;
+  margin: 3%;
+  -webkit-box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.4);
+}
+.main svg {
+  margin-left: 1px;
+  color: #0718fc;
+}
+.main .sec {
+  display: flex;
+  align-items: center;
+}
+.main label {
+  font-size: 10px;
+}
+.main .value {
+  padding: 0 4px;
+}
+.main .priceSec {
+  padding-right: 3px;
+}
+
+.confirm .sec {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+.confirm label {
+  font-size: 13px;
+  color: #666;
+  margin-left: 5px;
+}
+.confirm label.left {
+  margin-right: 5px;
+}
+.confirm .title {
+  margin-bottom: 20px;
+}
+.confirm .gameTitle {
+  margin-bottom: 5px;
+}
+.confirm .title svg {
+  margin-left: 3px;
+  font-size: 16px;
+}
+.confirm .date {
+  font-size: 20px;
+  margin-bottom: 6px;
+}
+.confirm .time {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+.confirm .price {
+  /* font-size: 26px; */
+}
+.confirmBody {
+  padding: 15px 15px 10px;
+  border: 2px dashed #eee;
+  border-radius: 5px;
+  /* margin-bottom: 15px; */
+  background-color: white;
+}
+
+.confirm .actions {
+  justify-content: flex-end;
+}
+
+.isReserved {
+  opacity: 0.3;
+}
+.counterControls {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+.counterControls svg {
+  font-size: 24px;
+}
+.counterPrice {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 3px 0 10px;
+}
+.counterPrice span {
+  font-size: 18px;
+  padding: 0 5px;
+  color: #0718fc;
+}
+.agreed {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 5px 8px;
+  margin-bottom: 5px;
+  background: white;
+}
+.counterTotal span {
+  font-size: 22px;
+}
+.adminForm {
+  display: flex;
+  flex-direction: column;
+}
+.adminForm .input {
+  margin-bottom: 10px;
+}
+.adminForm .checkbox {
+  display: block;
+}
+.prepay {
+  font-size: 20px;
+  padding-right: 10px;
+}
+/**************************************************************/
+/**************************************************************/
+/**************************************************************/
+/**************************************************************/
+/**************************************************************/
+.desktop.main {
+  padding: 10px;
+  background: white;
+  border-radius: 5px;
+  width: 14%;
+  margin: 3%;
+  -webkit-box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.4);
+}

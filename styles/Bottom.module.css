@@ -1,0 +1,75 @@
+.main {
+  width: 100%;
+  margin-top: 50px !important; /* use classes to override! */
+  min-height: 200px;
+  background: #212121;
+  background: white;
+  display: flex;
+  justify-content: center;
+  padding: 30px 0 0;
+  border-top: 1px solid #d0d0d0;
+}
+.mobile.main {
+  padding: 20px 0 0;
+}
+.mobile .menu {
+  padding:0 10px;
+}
+.menu a {
+  color: #8a8a8a;
+  color: #777;
+}
+.menu.wide ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.menu.wide li {
+  padding-left: 15px;
+  margin-left: 15px;
+  border-left: 1px solid #424242;
+}
+.mobile .menu.wide li {
+  width: 46%;
+  margin: 0 2% 0 2%;
+  border:none;
+  border-bottom: 1px solid #d6d6d6;
+  padding: 5px;
+  display: flex;
+  text-align: center;
+}
+.menu.wide li:last-child {
+  margin-left: 0;
+  border-left: none;
+}
+.copyright {
+  margin-top: 15px;
+  color: #949494;
+  font-size: 12px;
+  }
+
+.mobile .copyright {
+  margin-top: 20px;
+  padding: 0 15px 10px 0;
+  padding-bottom: 75px!important;
+}
+.logo {
+  padding: 0 17px;
+  margin-bottom: 10px;
+}
+.logo img {
+  display: block;
+  width: 50px;
+  margin-left: -3px;
+}
+.logo a {
+  /* color: #ff3543;
+  color: #df313c; */
+  display: flex;
+  align-items: center;
+}
+.logo a span {
+  /* color: #ff3543;
+  color: #df313c; */
+  font-size: 16px;
+  font-family: shabnamBold;
+}

@@ -1,0 +1,17 @@
+.main {
+    display: -moz-box;
+    display: flex;
+    -moz-box-align: center;
+    align-items: center;
+    /* border: 2px solid #714d20; */
+    color: white;
+    padding: 3px 10px 3px 4px;
+    border-radius: 6px;
+    border-radius: 25px;
+    background:#afafaf;
+  }
+  
+  .main svg {
+    color: #fbbe72;
+    color: white;
+  }

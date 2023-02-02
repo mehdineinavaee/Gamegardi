@@ -1,0 +1,29 @@
+.main {
+  padding: 10px 10px 10px 0;
+  border-bottom: 1px solid rgb(228, 228, 228);
+  display: flex;
+  -moz-box-orient: horizontal;
+  -moz-box-direction: normal;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.amount {
+  font-size: 19px;
+  color: rgb(0, 62, 197);
+}
+.date {
+  color: #999;
+  font-size: 13px;
+}
+.type {
+  font-size: 12px;
+  border: 1px solid #ccc;
+  padding: 3px 0;
+  border-radius: 50px;
+  width: 60px;
+  text-align: center;
+}
+.direction {
+  font-size: 12px;
+}

@@ -1,0 +1,71 @@
+.game {
+  width: 20%;
+  padding: 0 20px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  margin-bottom: 10px;
+  position: relative;
+}
+/* .game:first-child {
+  padding-right: 0;
+} */
+
+.gamePoster {
+  width: 200px;
+  width: 100%;
+  border-radius: 6px;
+  -webkit-box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.5);
+  margin-bottom: 6px;
+  position: relative;
+}
+.gamePoster .tag {
+  position: absolute;
+  z-index: 2;
+  padding: 2px 7px;
+  background: red;
+  color: white;
+  border-radius: 5px 0 0 5px;
+  top: 9px;
+  right: -2px;
+  font-size: 13px;
+}
+.title,
+.genre,
+.district {
+  width: 100%;
+  text-align: right;
+}
+.title {
+  overflow: hidden;
+  font-size: 14px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+/********************************************************************************************/
+/********************************************************************************************/
+/********************************************************************************************/
+/********************************************************************************************/
+/********************************************************************************************/
+.mobile.game {
+  width: auto;
+  padding: 0 10px 10px;
+}
+.mobile .gamePoster {
+  width: 112px;
+}
+.mobile .genre {
+  font-size: 10px;
+  width: 100%;
+  text-align: right;
+  position: static;
+}
+.mobile .district {
+  font-size: 13px;
+  color: #777;
+}

@@ -1,0 +1,7 @@
+.menu.wide ul {
+    display: flex;
+}
+.menu.wide li {
+    padding-right: 25px;
+}
+

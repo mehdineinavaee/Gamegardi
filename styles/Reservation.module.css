@@ -1,0 +1,38 @@
+/**/.day {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+.showing {
+  margin-left: 10px;
+  background: #0070e2;
+  border-radius: 5px;
+  width: 140px;
+  overflow: hidden;
+}
+.showing:hover {
+  background: #0058b1;
+  cursor: pointer;
+}
+.date{
+  text-align: center;
+  padding: 5px;
+  background: #0259b3;
+}
+.time {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 7px 5px;
+}
+.time div {
+  padding: 0 10px;
+}
+.price {
+  text-align: center;
+  padding: 5px 0 5px;
+}
+.isReserved {
+  opacity: 0.2;
+  pointer-events: none;
+}

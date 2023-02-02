@@ -1,0 +1,23 @@
+.main {
+  display: flex;
+  flex-direction: column;
+}
+.input {
+  margin-bottom: 20px !important;
+}
+.input.deletable {
+  display: flex;
+  position: relative;
+}
+.input.deletable button {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.input.deletable .MuiTextField-root {
+  width: 100% !important;
+}
+.fieldActions {
+    display: flex;
+    margin-top: -15px;
+}

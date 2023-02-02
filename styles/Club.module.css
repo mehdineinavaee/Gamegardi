@@ -1,0 +1,152 @@
+.main {
+}
+.cover {
+  position: relative;
+  padding: 30px 0 25px 0;
+}
+.cover .content {
+}
+.cover .gallery {
+  position: relative;
+  z-index: 99;
+}
+.cover .background,
+.cover .backgroundCover {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.cover .background {
+  z-index: 1;
+  /*  */
+  /* Add the blur effect: */
+  /* filter: blur(2px);
+  -webkit-filter: blur(2px); */
+  /*  */
+  /* Center and scale the image nicely: */
+  /* background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+  /*  */
+  background: #ccc;
+}
+.cover .backgroundCover {
+  z-index: 2;
+  top: -5%;
+  height: 110%;
+  background: black;
+  opacity: 0.5;
+  display: none;
+}
+.cover .sec1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cover .poster {
+  display: block;
+  width: 33%;
+  width: 30%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border: 2px solid #efefef;
+  /*  */
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+}
+.cover .info {
+}
+
+.cover .titles {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: white;
+}
+.cover .gameTitle {
+  font-size: 20px;
+  color: black;
+}
+.cover .clubTitle a {
+  opacity: 0.8;
+  font-size: 12px;
+  padding-right: 8px;
+  border-right: 1px solid rgba(255, 255, 255, 0.6);
+}
+.cover .label {
+  display: flex;
+  margin-bottom: 7px;
+  color: white;
+  display: none;
+}
+.cover svg {
+  opacity: 0.5;
+  margin-left: 5px;
+}
+.cover .label span {
+  font-size: 15px;
+  opacity: 0.8;
+}
+.tabs {
+  margin-bottom: 20px;
+}
+
+.condition {
+  display: flex;
+  padding-right: 5px;
+  margin-bottom: 10px;
+}
+.condition svg {
+  margin-left: 4px;
+  font-size: 18px;
+}
+.condition div {
+  text-align: right;
+  line-height: normal;
+}
+.map {
+  width: 100%;
+  border: 1px solid #ccc;
+}
+.address1 {
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+.address2 {
+  font-size: 13px;
+}
+/**********************************************************************************/
+/**********************************************************************************/
+/**********************************************************************************/
+/**********************************************************************************/
+/**********************************************************************************/
+.desktop .cover {
+  /* height: 50px; */
+}
+.desktop .cover .sec1 {
+  /* height: 250px; */
+  flex-direction: row;
+  align-items: flex-start;
+}
+.desktop .cover .poster {
+  width: 100px;
+  height: 100%;
+  margin: 0 0 0 20px;
+}
+.desktop .cover .gallery {
+  width: 400px;
+}
+.commentsHeader {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px 0 20px;
+  margin-bottom: 5px;
+  align-items: center;
+}
+.totalComments {
+}

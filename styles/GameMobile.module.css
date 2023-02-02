@@ -1,0 +1,207 @@
+.main {
+}
+.cover {
+  position: relative;
+  overflow: hidden;
+  padding: 60px 25px 50px;
+  padding: 60px 25px 15px;
+}
+.cover .content,
+.cover .gallery {
+  position: relative;
+  z-index: 99;
+}
+.cover .background,
+.cover .backgroundCover {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+.cover .background {
+  z-index: 1;
+  /* Add the blur effect */
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cover .backgroundCover {
+  z-index: 2;
+  top: -5%;
+  height: 110%;
+  background: black;
+  opacity: 0.5;
+}
+.cover .sec1 {
+  display: flex;
+}
+.cover .poster {
+  display: block;
+  width: 35%;
+  position: relative;  
+}
+.cover .poster img {
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+}
+.cover .poster .tag {
+  position: absolute;
+  z-index: 2;
+  padding: 2px 7px;
+  background: red;
+  color: white;
+  border-radius: 5px 0 0 5px;
+  top: 9px;
+  right: -2px;
+  font-size: 13px;
+}
+.cover .info {
+  padding: 5px 15px 0 0;
+}
+
+.cover .titles {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  color: white;
+}
+.cover .gameTitle {
+  font-size: 20px;
+  margin-left: 8px;
+}
+.cover .clubTitle a {
+  opacity: 0.8;
+  font-size: 12px;
+  padding-right: 8px;
+  border-right: 1px solid rgba(255, 255, 255, 0.6);
+}
+.cover .label {
+  display: flex;
+  margin-bottom: 7px;
+  color: white;
+}
+.cover svg {
+  opacity: 0.5;
+  margin-left: 5px;
+}
+.cover .label span {
+  font-size: 15px;
+  opacity: 0.8;
+}
+.tabs {
+  margin-bottom: 20px;
+}
+
+.condition {
+  display: flex;
+  padding-right: 5px;
+  margin-bottom: 10px;
+}
+.condition svg {
+  margin-left: 4px;
+  font-size: 18px;
+}
+.condition div {
+  text-align: right;
+  line-height: normal;
+}
+.map {
+  width: 100%;
+  border: 1px solid #ccc;
+}
+.address1 {
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+.address2 {
+  font-size: 13px;
+}
+.mapir {
+  /* text-align: center;
+  width: 100%;
+  height: 100vh; */
+  margin-bottom: 15px;
+}
+.linkButtons {
+  display: flex;
+  justify-content: space-between;
+}
+.linkButtons a {
+  display: flex;
+  border: 1px solid #a1a1a1;
+  border-radius: 5px;
+  padding: 5px 0;
+  font-size: 13px;
+  color: black !important;
+  -moz-box-align: center;
+  align-items: center;
+  width: 47%;
+  justify-content: center;
+}
+.linkButtons a .icon {
+  margin-left: 3px;
+}
+.label .gameState {
+  opacity: 0.8;
+}
+.label .gameState1 {
+  color: #00d500 !important;
+}
+.label .gameState2 {
+  color: #00d500 !important;
+}
+.label .gameState3 {
+  color: #00d500 !important;
+}
+/**********************************************************************************/
+/**********************************************************************************/
+/**********************************************************************************/
+/**********************************************************************************/
+/**********************************************************************************/
+.desktop .cover {
+  padding: 30px 25px;
+  margin-bottom: 20px;
+}
+.desktop .cover .sec1 {
+  height: 250px;
+}
+.desktop .cover .poster {
+  width: auto;
+  height: 100%;
+}
+.desktop .cover .poster img {
+  height: 100%;
+  width: auto;
+}
+.desktop .cover .gallery {
+  width: 400px;
+}
+.desktop .linkButtons {
+  display: flex;
+  justify-content: flex-start;
+}
+.desktop .linkButtons a {
+  width: auto;
+  min-width: 130px;
+  padding-right: 5px;
+  margin-left: 5px;
+}
+/**********************************************************************************/
+/**********************************************************************************/
+/**********************************************************************************/
+/**********************************************************************************/
+/**********************************************************************************/
+.commentsHeader {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px 0 20px;
+  margin-bottom: 5px;
+  align-items: center;
+}

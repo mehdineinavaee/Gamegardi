@@ -1,0 +1,31 @@
+.bigSlideWrap {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.bigSlide {
+  position: relative;
+  width: 100%;
+  /* width: calc(100% - 4px);
+  border: 2px solid #444; */
+}
+.bigSlide .ratio {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.bigSlide iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+.slideHandle {
+  color: #888;
+  font-size: 25px !important;
+  margin-top: 15px;
+}

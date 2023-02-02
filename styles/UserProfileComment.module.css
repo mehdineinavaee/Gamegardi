@@ -1,0 +1,157 @@
+.main {
+  padding: 0 0 20px 0;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+.sec1 {
+  display: flex;
+  margin-bottom: 5px;
+  align-items: center;
+  align-items: flex-start;
+}
+.user {
+  display: flex;
+  align-items: center;
+}
+.user .info {
+  display: flex;
+  flex-direction: column;
+}
+.user .name {
+  font-weight: bold;
+}
+.user .experience {
+  font-size: 12px;
+}
+.avatar {
+  margin-left: 5px;
+}
+.avatar div {
+  width: 35px;
+  height: 35px;
+}
+.ratingScore {
+  margin-left: 2px;
+}
+.rating {
+  display: flex;
+  align-items: center;
+}
+.commentBody {
+  padding: 0 10px 0;
+  margin: 0 0 5px 0;
+}
+.gameInfo{
+  color: #0718fc;
+}
+.date {
+  color: rgb(117, 117, 117);
+  padding: 0 10px 0;
+  font-size: 12px;
+}
+.date label {
+  margin-left: 2px;
+}
+.reply {
+  padding: 10px 50px 0 0;
+  display: flex;
+}
+.reply svg {
+  margin-left: 2px;
+}
+.adminActions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+  align-items: center;
+}
+.adminActions button {
+  margin-right: 8px;
+}
+.details {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+.certificates {
+  margin-top: 3px;
+}
+.stats {
+  margin-bottom: 35px;
+  background: #eee;
+  border-radius: 5px;
+  padding: 14px 17px 9px 12px;
+}
+.stats .rateWrap {
+  display: flex;
+  align-items: center;
+}
+.stats .rate {
+  display: flex;
+  margin-bottom: 5px;
+  justify-content: space-between;
+}
+.stats .label {
+  color: rgb(163, 163, 163);
+}
+.stats .rate .scoreLabel {
+  padding-left: 5px;
+  display: none;
+}
+.stats .rate svg {
+  font-size: 14px !important;
+}
+.stats.active .label {
+  color: rgba(0, 0, 0, 0.87);
+}
+.stats.active .rate:first-child .label {
+  font-weight: bold;
+  font-size: 15px;
+}
+.stats.active .rate:first-child .scoreLabel {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+}
+.stats.active .rate:first-child svg {
+  font-size: 17px !important;
+}
+.sec_points {
+  padding: 0 10px;
+  position: relative;
+  margin-bottom: 10px;
+}
+.sec_points label {
+  color: #888;
+  font-size: 12px;
+  padding-right: 5px;
+}
+.sec_points .iconMain {
+  display: none;
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  right: 5px;
+}
+.point {
+  display: flex;
+  margin-bottom: 3px;
+}
+.point .icon {
+  color: green;
+  font-size: 18px;
+  margin-left: 2px;
+}
+.badPoint {
+}
+.badPoint .icon {
+  color: red;
+}
+.admin {
+  margin: 0 -20px 0 -20px;
+  padding: 20px;
+}
+.admin.reacted {
+  background: #d7d7d7;
+}

@@ -1,0 +1,19 @@
+.main {
+}
+.content {
+  padding: 30px 20px;
+}
+.topBar {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+.menu {
+  margin-top: 50px;
+  border-top: 1px solid #ccc;
+}
+.menu li {
+  border-bottom: 1px solid #eee;
+  padding: 10px 20px;
+  min-width: 200px;
+}
+/**/

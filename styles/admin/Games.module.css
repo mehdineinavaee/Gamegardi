@@ -1,0 +1,10 @@
+.panel1{
+    margin-bottom: 50px;
+}
+.formBlock {
+    display: block;
+    flex-direction: column;
+    margin: 0 0 20px 1% !important;
+    width: 24%;
+}
+.toGetCommited {}

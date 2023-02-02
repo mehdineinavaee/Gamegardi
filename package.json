@@ -1,0 +1,32 @@
+{
+  "name": "app_5",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@date-io/date-fns": "^2.11.0",
+    "@date-io/moment": "^2.10.11",
+    "@material-ui/core": "^4.11.4",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.60",
+    "@material-ui/pickers": "^3.3.10",
+    "clsx": "^1.1.1",
+    "cookie-cutter": "^0.2.0",
+    "date-fns": "^2.23.0",
+    "jalali-moment": "^3.3.10",
+    "jss-rtl": "^0.3.0",
+    "mapir-react-component": "^2.0.1",
+    "moment": "^2.29.1",
+    "next": "10.2.0",
+    "nookies": "^2.5.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "swiper": "^6.6.2",
+    "swr": "^0.5.6",
+    "uniqid": "^5.3.0"
+  }
+}

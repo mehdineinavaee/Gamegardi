@@ -1,0 +1,30 @@
+.main {
+  display: flex;
+  flex-direction: column;
+}
+.input {
+  margin-bottom: 15px !important;
+}
+.formHeader {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 25px;
+  position: relative;
+}
+.formHeader .title {
+font-size: 20px;
+}
+.formSwitch {
+  padding: 0 0 10px 20px;
+}
+.backButton {
+  position: absolute !important;
+  top:0;
+  left: 0;
+  z-index: 2;
+}
+.description {
+  margin-bottom: 10px;
+}
